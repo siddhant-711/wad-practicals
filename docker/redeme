@@ -1,0 +1,14 @@
+
+// mkdir demo  
+// cd demo
+// nano Dockerfile
+// ->> FROM alpine:latest 
+//     CMD echo "hello world"
+
+// sudo docker build -t demo .
+
+// sudo docker run demo
+
+
+
+
