@@ -12,7 +12,7 @@
         <h1>User Data List</h1>
         <ul id="userDataList"></ul>
     </div>
-    <button onclick="deleteData()">delete</button>
+    <button>delete</button>
     <script>
         // Retrieve user data from localStorage
         var userData = JSON.parse(localStorage.getItem("userData")) || [];
@@ -25,10 +25,7 @@
             userDataList.appendChild(listItem);
         });
 
-        function deleteData(){
-            userData.pop();
-            localStorage.setItem("userData", JSON.stringify(userData)); // Update the localStorage after deletion
-        }
+    
     </script>
 </body>
 </html>

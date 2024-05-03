@@ -5,7 +5,6 @@ const PORT = 3000;
 
 app.use("/", (req, res) => res.send("server is working fine"));
 
-app.use("/home",(req,res) => {res.send("Welcome to home page")});
 
 app.listen(PORT, () =>
   console.log(`local server is running on: http://localhost:${PORT}`)
